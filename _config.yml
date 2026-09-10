@@ -3,17 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SictiyLeon
-subtitle: 柠檬派
-description:
-keywords:
-author: sictiy xu
+title: 柠檬小站
+avatar: https://s21.ax1x.com/2020/01/17/lxqAEV.jpg
+favicon: https://s21.ax1x.com/2020/01/17/lxqAEV.jpg
+subtitle: 日常折腾记录
+description: 日常折腾记录
+keywords: hexo, blog
+author: xulm
 language:
+  - zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.sictiy.cn/hblog
+url: https://www.xulm.site/hblog
 root: /hblog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,7 +76,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material-x
+#theme: material-x
+theme: stellar
+#theme: volantis
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

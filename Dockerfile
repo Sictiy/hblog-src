@@ -10,9 +10,7 @@ RUN echo "npm set mirror..." \
 	&& npm cache clean -f
 
 RUN echo "npm install..." \
-	#&& npm config set proxy http://172.17.0.1:1080 \
-	#&& npm config set https-proxy http://172.17.0.1:1080 \
-	#&& npm install -g npm \
+	&& npm install hexo-cli -g \
 	&& npm install
 
-ENTRYPOINT ["sh", "/hexo/entrypoint.sh"]
+ENTRYPOINT ["sh", "/hexo/run_scripts/entrypoint.sh"]
